@@ -1,0 +1,35 @@
+
+.profile-header {
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.profile-header > img {
+    display: inline-block;
+    border-radius: 70px;
+    height: 140px;
+    width: auto;
+    border: 6px solid whitesmoke;
+}
+
+.profile-header > h1 {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.section {
+    border-left: 6px solid #023660;
+    padding: 0 0 15px 15px;
+    margin: 15px;
+}
+
+.app-icon-sm {
+    width: 60px;
+    height: auto;
+}
+
+p, a, li {
+    font-size: 16px;
+    list-style: none;
+}
