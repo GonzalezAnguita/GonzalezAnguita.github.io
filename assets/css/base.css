@@ -1,21 +1,23 @@
 
 .profile-header {
     margin: 30px 0;
-    display: inline-block;
 }
 
-.profile-header > img {
-    display: inline-block;
-    border-radius: 70px;
-    height: 140px;
+.profile-header h1 {
+    margin-top: 50px;
+}
+
+.profile-img > img {
+    border-radius: 100px;
+    height: 200px;
     width: auto;
     border: 6px solid whitesmoke;
 }
 
-.profile-header > h1 {
-    display: inline;
-    vertical-align: middle;
-    margin-left: 15px;
+@media (max-width: 768px) {
+    .text-xs-center {
+        text-align: center;
+    }
 }
 
 .section {
@@ -32,4 +34,24 @@
 p, a, li {
     font-size: 16px;
     list-style: none;
+}
+
+.project-link:link {
+    color: #023660;
+    text-decoration: none;
+}
+
+/* visited link */
+.project-link:visited {
+    color: blue;
+}
+
+/* mouse over link */
+.project-link:hover {
+    color: deepblue;
+}
+
+/* selected link */
+.project-link:active {
+    color: deepblue;
 }
